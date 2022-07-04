@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Conntec_Mobile",
+    "slug": "snack-38c8e5b4-2f62-4e37-ad11-29cd7a830a5e",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoConn.png",
+    "splash": {
+      "image": "./assets/logoConn.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "notification": {
+      "icon": "./assets/logoConn.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.conntec.conntec",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoConn.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1,
+      "package": "com.conntec.conntec"
+    },
+    "web": {
+      "favicon": "./assets/logoConn.png"
+    }
+  },
+  "owner": "conntec-mobile",
+  "slug": "conntec-mobile"
+}
